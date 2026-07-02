@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #e8e9dc;
+  color: #3b3a32;
+}
+
+::selection {
+  background-color: #7c8863;
+  color: #f5f5ee;
+}
+
+/* reveal-on-scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.divider-dash {
+  background-image: linear-gradient(to right, currentColor 40%, transparent 0%);
+  background-position: bottom;
+  background-size: 12px 2px;
+  background-repeat: repeat-x;
+  height: 2px;
+}
