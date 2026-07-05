@@ -46,9 +46,8 @@ export default function Navbar() {
 
       {/* Full menu overlay */}
       <div
-        className={`fixed inset-0 z-[60] bg-bark text-linen transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${
-          open ? "translate-y-0" : "-translate-y-full pointer-events-none"
-        }`}
+        className={`fixed inset-0 z-[60] bg-bark text-linen transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${open ? "translate-y-0" : "-translate-y-full pointer-events-none"
+          }`}
       >
         <button
           aria-label="Close menu"

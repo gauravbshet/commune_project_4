@@ -5,7 +5,7 @@ export default function VillasIntroTitle() {
   return (
     <section id="stays" className="bg-cream pt-24 pb-10 flex flex-col items-center px-6">
       <Reveal>
-        <TreeMark className="w-14 h-16 text-sage-deep mb-8" />
+        <TreeMark className="w-48 sm:w-56 h-8 sm:h-10 text-sage-deep mb-8" />
       </Reveal>
       <span className="w-2 h-2 rounded-full bg-ink/30 mb-2" />
       <span className="w-px h-10 bg-ink/25" />

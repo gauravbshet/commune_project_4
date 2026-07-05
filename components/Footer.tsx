@@ -26,7 +26,7 @@ export default function Footer() {
 
       <div className="grid md:grid-cols-2">
         <div className="px-6 sm:px-12 py-16">
-          <TreeMark className="w-12 h-14 text-sage-deep mb-10" />
+          <TreeMark className="w-40 sm:w-48 h-7 sm:h-8 text-sage-deep mb-10" />
           <nav className="flex flex-col gap-2 mb-10">
             {links.map((l) => (
               <a
