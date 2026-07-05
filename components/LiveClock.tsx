@@ -27,7 +27,7 @@ export default function LiveClock() {
         {time ?? "--:--"}
       </span>
       <span className="text-ink/60 text-sm tracking-wide mt-2 block">
-        at GREEN TREE
+        at COMMUNE 18
       </span>
     </div>
   );

@@ -2,9 +2,9 @@ import Image from "next/image";
 import Reveal from "./Reveal";
 
 const stats = [
-  { value: "1200m", label: "TO MOST BEAUTIFUL PEBBLE BEACHES" },
-  { value: "6000m", sup: "2", label: "GREEN TREE VILLA AREA" },
-  { value: "3", label: "VILLAS IN THE RESORT." },
+  { value: "18", label: "ACRES OF LUSH JUNGLE & PLANTATION" },
+  { value: "5", label: "UNIQUE ACCOMMODATION TYPES" },
+  { value: "500+", label: "HAPPY GUESTS EVERY MONTH" },
 ];
 
 export default function StatsSection() {
@@ -12,8 +12,8 @@ export default function StatsSection() {
     <section className="grid md:grid-cols-3 bg-cream">
       <div className="relative min-h-[320px] md:min-h-[560px]">
         <Image
-          src="https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1400&auto=format&fit=crop"
-          alt="Clear turquoise water over pale rocks"
+          src="https://images.unsplash.com/photo-1543363136-3fdb62e11be5?q=80&w=1400&auto=format&fit=crop"
+          alt="Crystal clear waterfall in the Chikmagalur forest"
           fill
           className="object-cover"
           sizes="(min-width: 768px) 33vw, 100vw"
@@ -26,7 +26,6 @@ export default function StatsSection() {
             <div className="text-center">
               <p className="font-display font-medium text-sage-deep text-6xl sm:text-7xl leading-none">
                 {s.value}
-                {s.sup && <sup className="text-3xl sm:text-4xl">{s.sup}</sup>}
               </p>
               <p className="text-ink/60 text-xs sm:text-sm tracking-widest mt-3">
                 {s.label}
@@ -41,8 +40,8 @@ export default function StatsSection() {
 
       <div className="relative min-h-[320px] md:min-h-[560px]">
         <Image
-          src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1400&auto=format&fit=crop"
-          alt="Villa entrance lit at night, framed by olive trees"
+          src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?q=80&w=1400&auto=format&fit=crop"
+          alt="Wooden cottage lit warmly at night surrounded by jungle"
           fill
           className="object-cover"
           sizes="(min-width: 768px) 33vw, 100vw"

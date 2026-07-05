@@ -6,7 +6,7 @@ export default function ParallaxShowcase() {
   return (
     <section className="bg-white relative overflow-hidden">
       <div className="grid md:grid-cols-3 gap-x-8 lg:gap-x-16 px-6 sm:px-10 lg:px-14 max-w-8xl mx-auto">
-        {/* Column 1 — welcome copy, then a pendant-light interior shot lower down */}
+        {/* Column 1 — welcome copy, then a cottage interior lower down */}
         <div className="flex flex-col">
           <div className="pt-20 sm:pt-28 pb-16">
             <Reveal>
@@ -14,9 +14,9 @@ export default function ParallaxShowcase() {
                 welcome to
               </span>
               <h2 className="font-display font-medium text-sage-dark leading-[0.95] text-6xl sm:text-7xl -mt-2">
-                green
+                commune
                 <br />
-                serenity
+                eighteen
               </h2>
             </Reveal>
           </div>
@@ -25,8 +25,8 @@ export default function ParallaxShowcase() {
             <ParallaxColumn speed={-0.06}>
               <div className="relative w-full h-[420px] sm:h-[520px]">
                 <Image
-                  src="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?q=80&w=900&auto=format&fit=crop"
-                  alt="Pendant lights hanging above a concrete beam in a Green Tree villa interior"
+                  src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=900&auto=format&fit=crop"
+                  alt="Misty mountain view from a wooden cottage in the Western Ghats"
                   fill
                   className="object-cover"
                   sizes="(min-width: 768px) 33vw, 100vw"
@@ -36,17 +36,16 @@ export default function ParallaxShowcase() {
           </div>
         </div>
 
-        {/* Column 2 — sunset terrace image, dashed divider, then the "go where" headline */}
+        {/* Column 2 — body text, jungle pool image, then the "go where" headline */}
         <div className="flex flex-col">
           <div className="pt-0 md:pt-40 pb-10">
             <Reveal>
               <p className="text-ink/70 leading-relaxed text-[15px] sm:text-base max-w-md">
-                Where luxury and sustainability unite in harmony. Our villas
-                blend seamlessly with nature, providing a peaceful escape
-                that you won&apos;t find anywhere else. Their secluded
-                hilltop location ensures a peaceful and relaxing getaway.
-                Experience the beauty of Istria and create unique memories
-                that will last a lifetime.
+                Where the jungle is your living room. Commune18 is a tropical
+                retreat in the heart of Chikmagalur&apos;s Western Ghats — a
+                place for wanderers, workaholics, and wild souls who refuse to
+                choose between nature and comfort. Lose yourself in the mist,
+                and find yourself in the community.
               </p>
             </Reveal>
           </div>
@@ -54,8 +53,8 @@ export default function ParallaxShowcase() {
           <ParallaxColumn speed={0.1}>
             <div className="relative w-full h-[420px] sm:h-[560px]">
               <Image
-                src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=1200&auto=format&fit=crop"
-                alt="Terrace loungers at sunset overlooking the Adriatic coastline"
+                src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200&auto=format&fit=crop"
+                alt="Resort swimming pool surrounded by lush jungle greenery"
                 fill
                 className="object-cover"
                 sizes="(min-width: 768px) 33vw, 100vw"
@@ -81,14 +80,14 @@ export default function ParallaxShowcase() {
           </div>
         </div>
 
-        {/* Column 3 — tall villa interior, then the live solar-energy stat */}
+        {/* Column 3 — tall jungle/plantation image, then the acreage stat */}
         <div className="flex flex-col">
           <div className="pt-6 sm:pt-10">
             <ParallaxColumn speed={-0.1}>
               <div className="relative w-full h-[520px] sm:h-[680px]">
                 <Image
-                  src="https://images.unsplash.com/photo-1600607687644-c7171b42498b?q=80&w=1200&auto=format&fit=crop"
-                  alt="Sunlit villa interior with a sea view through wooden columns"
+                  src="https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1200&auto=format&fit=crop"
+                  alt="Dense coffee plantation forest in Chikmagalur Western Ghats"
                   fill
                   className="object-cover"
                   sizes="(min-width: 768px) 33vw, 100vw"
@@ -99,12 +98,12 @@ export default function ParallaxShowcase() {
 
           <div className="mt-16 sm:mt-24 pb-20">
             <Reveal>
-              <p className="text-ink/50 text-sm tracking-widest mb-1">Today</p>
+              <p className="text-ink/50 text-sm tracking-widest mb-1">Our home</p>
               <p className="font-display font-medium text-sage-dark text-6xl sm:text-7xl leading-none">
-                41 kWh
+                18
               </p>
               <p className="text-ink/60 text-sm mt-2">
-                energy produced from sun
+                acres of lush jungle &amp; plantation
               </p>
             </Reveal>
           </div>

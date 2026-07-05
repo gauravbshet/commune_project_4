@@ -4,10 +4,10 @@ import { useState } from "react";
 
 const links = [
   { label: "Home", href: "#hero" },
-  { label: "Our villas", href: "#villas" },
-  { label: "About Us", href: "#sustainability" },
+  { label: "Our Stays", href: "#stays" },
+  { label: "About Us", href: "#about" },
   { label: "Contact", href: "#footer" },
-  { label: "Meet Istria", href: "#istria" },
+  { label: "Explore Chikmagalur", href: "#chikmagalur" },
 ];
 
 export default function Navbar() {

@@ -25,9 +25,9 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "Green Tree Villas | Luxury & Sustainable Villas in Istria",
+  title: "Commune18 | Resort in Chikmagalur — Jungle Away from Home",
   description:
-    "Experience luxury and sustainability in harmony. Secluded hilltop villas overlooking the Adriatic in Rabac, Istria.",
+    "Discover Commune18, a tropical retreat in the heart of Chikmagalur's Western Ghats. Pet-friendly resort with jungle cottages, tents, pool, workation spaces and bonfire nights.",
 };
 
 export default function RootLayout({

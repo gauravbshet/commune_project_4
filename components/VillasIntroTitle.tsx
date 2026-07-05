@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 
 export default function VillasIntroTitle() {
   return (
-    <section id="villas" className="bg-cream pt-24 pb-10 flex flex-col items-center px-6">
+    <section id="stays" className="bg-cream pt-24 pb-10 flex flex-col items-center px-6">
       <Reveal>
         <TreeMark className="w-14 h-16 text-sage-deep mb-8" />
       </Reveal>
@@ -15,7 +15,7 @@ export default function VillasIntroTitle() {
             experience
           </span>
           <h2 className="font-display font-medium text-sage-deep text-6xl sm:text-8xl -mt-3">
-            our villas
+            our stays
           </h2>
         </div>
       </Reveal>
