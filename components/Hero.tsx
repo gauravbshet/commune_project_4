@@ -16,7 +16,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-ink/30 via-ink/10 to-ink/50" />
 
       <div className="relative z-10 h-full flex flex-col items-center justify-center px-6 text-center">
-        <TreeMark className="w-14 h-16 text-white mb-4" />
+        <TreeMark className="w-48 sm:w-56 h-8 sm:h-10 text-white mb-4" />
         <h1 className="font-display font-medium text-white tracking-[0.25em] text-2xl sm:text-3xl">
           COMMUNE
         </h1>
