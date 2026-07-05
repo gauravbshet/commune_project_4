@@ -16,13 +16,8 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-ink/30 via-ink/10 to-ink/50" />
 
       <div className="relative z-10 h-full flex flex-col items-center justify-center px-6 text-center">
-        <TreeMark className="w-48 sm:w-56 h-8 sm:h-10 text-white mb-4" />
-        <h1 className="font-display font-medium text-white tracking-[0.25em] text-2xl sm:text-3xl">
-          COMMUNE
-        </h1>
-        <p className="font-body text-white/80 tracking-[0.5em] text-[10px] sm:text-xs mt-1">
-          18
-        </p>
+        <h1 className="sr-only">Commune 18</h1>
+        <TreeMark className="w-72 sm:w-[450px] h-14 sm:h-20 text-white mb-8 -mt-32 sm:-mt-40" />
 
         <button
           aria-label="Play showreel"
