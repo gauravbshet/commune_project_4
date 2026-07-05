@@ -1,6 +1,12 @@
 import TreeMark from "./TreeMark";
 
-const links = ["Home", "Our villas", "About Us", "Contact", "Meet Istria"];
+const links = [
+  { label: "Home", href: "#hero" },
+  { label: "Our Stays", href: "#stays" },
+  { label: "About Us", href: "#about" },
+  { label: "Contact", href: "#footer" },
+  { label: "Explore Chikmagalur", href: "#chikmagalur" },
+];
 
 export default function Footer() {
   return (
@@ -24,11 +30,11 @@ export default function Footer() {
           <nav className="flex flex-col gap-2 mb-10">
             {links.map((l) => (
               <a
-                key={l}
-                href="#hero"
+                key={l.label}
+                href={l.href}
                 className="font-display text-3xl sm:text-4xl text-ink hover:text-sage-dark transition-colors"
               >
-                {l}
+                {l.label}
               </a>
             ))}
           </nav>
@@ -37,13 +43,13 @@ export default function Footer() {
           </a>
           <div className="mt-8 text-sm text-sage-dark space-y-1">
             <p>
-              <a href="mailto:info@greentree.hr" className="hover:underline">
-                info@greentree.hr
+              <a href="mailto:info@commune18.com" className="hover:underline">
+                info@commune18.com
               </a>
             </p>
             <p>
-              <a href="tel:+385989440540" className="hover:underline">
-                +385 989440540
+              <a href="tel:+918686486186" className="hover:underline">
+                +91 86864 86186
               </a>
             </p>
           </div>
@@ -52,7 +58,7 @@ export default function Footer() {
         <div className="bg-bark text-linen px-6 sm:px-12 py-16 flex flex-col justify-between">
           <div>
             <span className="font-script text-3xl sm:text-4xl block">
-              Sign in to our
+              Stay connected
             </span>
             <h3 className="font-display font-medium text-5xl sm:text-6xl -mt-1 mb-10">
               Newsletter
@@ -61,7 +67,7 @@ export default function Footer() {
             <form className="flex items-stretch border-b border-linen/40 max-w-md">
               <input
                 type="email"
-                placeholder="Enter you e-mail"
+                placeholder="Enter your e-mail"
                 className="flex-1 bg-transparent py-4 text-sm placeholder:text-linen/50 outline-none"
               />
               <button
@@ -75,7 +81,7 @@ export default function Footer() {
           </div>
 
           <p className="text-linen/70 text-sm mt-16">
-            &copy; {new Date().getFullYear()} Green Tree Villas. All rights reserved.
+            &copy; {new Date().getFullYear()} Commune18. All rights reserved.
           </p>
         </div>
       </div>

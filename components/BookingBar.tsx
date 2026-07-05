@@ -39,7 +39,7 @@ export default function BookingBar({
           </span>
           <input
             type="text"
-            defaultValue="GreenTree2"
+            defaultValue="COMMUNE18"
             className="bg-transparent text-xs text-ink/70 outline-none"
             readOnly
           />
