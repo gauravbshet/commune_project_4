@@ -16,7 +16,7 @@ export default function ParallaxShowcase() {
               <h2 className="font-display font-medium text-sage-dark leading-[0.95] text-6xl sm:text-7xl -mt-2">
                 commune
                 <br />
-                eighteen
+                18
               </h2>
             </Reveal>
           </div>
